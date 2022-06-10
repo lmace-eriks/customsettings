@@ -16,7 +16,7 @@ const CustomSettings: StorefrontFunctionComponent<CustomSettingsProps> = ({ meta
   })
 
   const runMeta = () => {
-    console.clear();
+    console.log("Overwriting Meta Viewport Tag...");
     // @ts-expect-error
     const badMetaHTML = document.getElementsByTagName("meta"); // HTML Collection
     const badMeta = Array.from(badMetaHTML); // Array
