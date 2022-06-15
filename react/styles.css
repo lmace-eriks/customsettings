@@ -1,3 +1,14 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    overflow-x: hidden !important;
+}
+
+.hiddenDiv {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
