@@ -1,7 +1,4 @@
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden !important;
-}
+html {}
 
 body {
     overflow-x: hidden !important;

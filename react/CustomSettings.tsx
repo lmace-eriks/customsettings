@@ -36,7 +36,7 @@ const CustomSettings: StorefrontFunctionComponent<CustomSettingsProps> = ({ meta
   }
 
   return (
-    <div className={styles.hiddenDiv}>Do not delete this - LM</div>
+    <div className={styles.hiddenDiv}></div>
   )
 }
 
