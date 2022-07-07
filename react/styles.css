@@ -10,3 +10,8 @@ body {
     overflow: hidden;
     visibility: hidden;
 }
+
+::selection {
+    color: white;
+    background-color: #ec1d24;
+}
