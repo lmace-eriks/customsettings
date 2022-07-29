@@ -15,3 +15,19 @@ body {
     color: white;
     background-color: #ec1d24;
 }
+
+:global(.vtex-search-result-3-x-filterTitleSpan--desktop-filters-v2) {
+    text-transform: lowercase;
+}
+
+:global(.vtex-search-result-3-x-filterTitleSpan--desktop-filters-v2::first-letter) {
+    text-transform: uppercase;
+}
+
+:global(.vtex-search-result-3-x-filterItem--desktop-filters-v2 .vtex-checkbox__label) {
+    text-transform: lowercase;
+}
+
+:global(.vtex-search-result-3-x-filterItem--desktop-filters-v2 .vtex-checkbox__label::first-letter) {
+    text-transform: uppercase;
+}
