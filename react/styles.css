@@ -31,3 +31,21 @@ body {
 :global(.vtex-search-result-3-x-filterItem--desktop-filters-v2 .vtex-checkbox__label::first-letter) {
     text-transform: uppercase;
 }
+
+:global(.vtex-search-result-3-x-accordionFilterItemTitle) {
+    display: block;
+    text-transform: lowercase;
+}
+
+:global(.vtex-search-result-3-x-accordionFilterItemTitle--desktop-filters-v2::first-letter) {
+    text-transform: uppercase;
+}
+
+:global(.vtex-checkbox__label) {
+    display: block;
+    text-transform: lowercase;
+}
+
+:global(.vtex-checkbox__label::first-letter) {
+    text-transform: uppercase;
+}
