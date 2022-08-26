@@ -49,3 +49,45 @@ body {
 :global(.vtex-checkbox__label::first-letter) {
     text-transform: uppercase;
 }
+
+:global(.vtex-store-components-3-x-skuSelectorItem.o-20) {
+    opacity: 1;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItem.o-20:hover::after) {
+    display: block;
+}
+
+/* Desktop Rules - LM */
+@media (min-width: 1026px) {
+    :global(.vtex-store-components-3-x-skuSelectorItem.o-20::after) {
+        content: "Not available in selected combination.";
+        color: white;
+        display: none;
+        font-size: 0.9rem;
+        font-weight: bold;
+        position: absolute;
+        top: -200%;
+        left: -200%;
+        background-color: black;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        text-align: center;
+        z-index: 10;
+        width: 10rem;
+    }
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItem.o-20 .vtex-store-components-3-x-skuSelectorInternalBox) {
+    opacity: 0.3;
+}
+
+/* PDP Product Photo Slider Arrow Buttons */
+:global(.c-disabled) {
+    display: none;
+}
+
+/* PDP Availability / Shipping / Pickup Timeline Container */
+:global(.vtex-location-availability-0-x-container--location-availability-summary-pdp:empty) {
+    display: none;
+}
