@@ -11,12 +11,11 @@ interface CustomSettingsProps {
 const CustomSettings: StorefrontFunctionComponent<CustomSettingsProps> = ({ metaViewport }) => {
 
   useEffect(() => {
-    console.log("Overwriting VTEX Settings...");
     runMeta();
   })
 
   const runMeta = () => {
-    console.log("Overwriting Meta Viewport Tag...");
+    // console.log("Overwriting Meta Viewport Tag...");
     // @ts-expect-error
     const badMetaHTML = document.getElementsByTagName("meta"); // HTML Collection
     const badMeta = Array.from(badMetaHTML); // Array
